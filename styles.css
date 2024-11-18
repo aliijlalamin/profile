@@ -1,0 +1,72 @@
+h2 {
+  text-align: center;
+  font-size: 45px;
+}
+
+p {
+  color: ;
+  font-size: 25px;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: cursive;
+  margin: 50px;
+}
+
+#aboutme {
+  background-color: aquamarine;
+  border-radius: 20px;
+  border: 5px solid black;
+}
+#mymessage {
+  background-color: lightyellow;
+  border-radius: 20px;
+  border: 3px solid skyblue;
+}
+div {
+  padding: 10px;
+  margin: 10px;
+
+  border-radius: 20px;
+}
+#mycity {
+  border: 8px dotted red;
+}
+#myfavsport {
+  border: 8px dotted red;
+}
+#myfavmovie {
+  background-color: aquamarine;
+}
+#mygallery {
+  background-color: aquamarine;
+  border-radius: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.column img {
+  width: 100%;
+  height: 200px;
+  border: 3px black solid;
+}
+
+.ali-pfp {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.fav-sport-img,
+.favmovieimg {
+  display: block;
+  margin: 0 auto;
+}
+
+#nav-links {
+  display: flex;
+  justify-content: space-between;
+}
